@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="sidebar">
+            <div class="sidebar__heading">
+                <p>Please, enter your info</p>
+            </div>
+                <form class="sidebar__form">
+                    <div class="inputfill">
+                        <input class="fName" type="text" required>
+                        <label>Firstname</label>
+                    </div>
+                    <div class="inputfill">
+                        <input class="lName" type="text" required>
+                        <label>Lastname</label>
+                    </div>
+                    <div class="inputfill">
+                        <input class="occupation" type="text" required>
+                        <label>Occupation</label>
+                    </div>
+                    <div class="inputfill">
+                        <input class="country" type="text" required>
+                        <label>Country</label>
+                    </div>
+                    <div class="inputfill">
+                        <input class="age" type="number" required>
+                        <label>Age</label>
+                    </div>
+                    <select name="gender" id="gender" required>
+                        <option value="" disabled selected>Select yout gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+        </div>
+        <div class="wrapper">
+            <div class="navbar">
+                <p>User's info</p>
+            </div>
+            <div class="card__collection">
+            </div>
+        </div>
+    </main>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
